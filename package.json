@@ -1,0 +1,12 @@
+{
+  "name": "ps04-nationwide-collaboration-portal",
+  "version": "1.0.0",
+  "description": "PS004 — Nationwide Student & Staff Collaboration Portal",
+  "scripts": {
+    "dev": "node dev.js",
+    "install-all": "npm --prefix server install && npm --prefix client install",
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build"
+  }
+}
